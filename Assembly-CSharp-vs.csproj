@@ -47,8 +47,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraPresentation2D.cs" />
-     <Compile Include="Assets\Scripts\Movable.cs" />
+     <Compile Include="Assets\Scripts\DirectionRaycasting2DBoulder.cs" />
+     <Compile Include="Assets\Scripts\DirectionRaycasting2DBrick.cs" />
+     <Compile Include="Assets\Scripts\DirectionRaycasting2DCollider.cs" />
+     <Compile Include="Assets\Scripts\ExtensionMethods.cs" />
+     <Compile Include="Assets\Scripts\FallingDetection.cs" />
+     <Compile Include="Assets\Scripts\HorizontalForce.cs" />
+     <Compile Include="Assets\Scripts\MovingByUser.cs" />
+     <Compile Include="Assets\Scripts\MovingCol.cs" />
      <Compile Include="Assets\Scripts\Parallaxing.cs" />
+     <Compile Include="Assets\Scripts\PillarCollisionDetection.cs" />
+     <Compile Include="Assets\Scripts\RayCastManager.cs" />
+     <Compile Include="Assets\Scripts\RayCastManagerBoulder.cs" />
+     <Compile Include="Assets\Scripts\RayCastManagerBrick.cs" />
+     <Compile Include="Assets\Scripts\RayCastManagerPillar.cs" />
+     <Compile Include="Assets\Scripts\RollingBoulder.cs" />
+     <Compile Include="Assets\Scripts\ShowGizmo.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Volumes/P I SSD/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
