@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 824bdb3f70cc44b4b924f12ed8895e0c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: char_animation_slow_0
+    21300002: char_animation_slow_1
+    21300004: char_animation_slow_2
+    21300006: char_animation_slow_3
+    21300008: char_animation_slow_4
+    21300010: char_animation_slow_5
+    21300012: char_animation_slow_6
+    21300014: char_animation_slow_7
+    21300016: char_animation_slow_8
+    21300018: char_animation_slow_9
+    21300020: char_animation_slow_10
+    21300022: char_animation_slow_11
+    21300024: char_animation_slow_12
+    21300026: char_animation_slow_13
+    21300028: char_animation_slow_14
+    21300030: char_animation_slow_15
+    21300032: char_animation_slow_16
+    21300034: char_animation_slow_17
+    21300036: char_animation_slow_18
+    21300038: char_animation_slow_19
+    21300040: char_animation_slow_20
+    21300042: char_animation_slow_21
+    21300044: char_animation_slow_22
+    21300046: char_animation_slow_23
+    21300048: char_animation_slow_24
+    21300050: char_animation_slow_25
+    21300052: char_animation_slow_26
+    21300054: char_animation_slow_27
+    21300056: char_animation_slow_28
+    21300058: char_animation_slow_29
+    21300060: char_animation_slow_30
+    21300062: char_animation_slow_31
+    21300064: char_animation_slow_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: char_animation_slow_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 855
+        width: 61
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 855
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 855
+        width: 62
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 855
+        width: 62
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 854
+        width: 61
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 855
+        width: 60
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 856
+        width: 63
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_7
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 859
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 861
+        width: 64
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_9
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 861
+        width: 70
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_10
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 862
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_11
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 862
+        width: 67
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_12
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 862
+        width: 62
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 689
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 688
+        width: 68
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 683
+        width: 69
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 680
+        width: 64
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 680
+        width: 60
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 680
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_19
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 680
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_20
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 680
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 681
+        width: 61
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_22
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 680
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 472
+        width: 63
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_24
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 472
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_25
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 472
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_26
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 472
+        width: 63
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 472
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+    - name: char_animation_slow_28
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 473
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 473
+        width: 65
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_30
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 472
+        width: 59
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_31
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 473
+        width: 61
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_animation_slow_32
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 472
+        width: 66
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
