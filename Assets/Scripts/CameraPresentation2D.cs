@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraPresentation2D : MonoBehaviour {
 
-	public float cameraSpeed = 1f;
+	public float cameraSpeed = 0.19f;
 
 
 	// Use this for initialization

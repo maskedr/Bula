@@ -22,6 +22,8 @@ public class MovingByUser : MonoBehaviour {
 	public bool								rayCastCollisionLeft = false;
 	public bool								rayCastCollisionUp = false;
 	public bool								rayCastCollisionRight = false;
+	// Flag which will tell us when the Character stept on object
+	public bool								characterInteraction = false;
 	// FLags which will tell us in which direction the mouse/touch is moving
 	private bool							touchIsMovingDown = false;
 	private bool							touchIsMovingLeft = false;
@@ -39,26 +41,29 @@ public class MovingByUser : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-		// If moveObjectFlag is TRUE and no collision is detected we commit the movement
-		//if (moveObjectFlag && !rayCastCollisionDown && !rayCastCollisionLeft && !rayCastCollisionUp && !rayCastCollisionRight) 
-		if (moveObjectFlag) 
+
+		if(this.gameObject != null && !characterInteraction)
 		{
-			// Checking to see if lastTouchPosition is Vector3.zero -> no movement took place in the last frame
-			if (lastTouchPosition == Vector3.zero)
-				// Updating the last position with the curent transform.position
-				lastTouchPosition = transform.position;
+			// If moveObjectFlag is TRUE and no collision is detected we commit the movement
+			//if (moveObjectFlag && !rayCastCollisionDown && !rayCastCollisionLeft && !rayCastCollisionUp && !rayCastCollisionRight) 
+			if (moveObjectFlag) 
+			{
+				// Checking to see if lastTouchPosition is Vector3.zero -> no movement took place in the last frame
+				if (lastTouchPosition == Vector3.zero)
+					// Updating the last position with the curent transform.position
+					lastTouchPosition = transform.position;
 
-			// Updating the mouse/touch movement flags
-			UpdateTouchDirectionFlags ();
+				// Updating the mouse/touch movement flags
+				UpdateTouchDirectionFlags ();
 
-			// Moving the object 
-			MoveTheObject();
+				// Moving the object 
+				MoveTheObject();
 
-			//Debug.Log ("MOVING");
-		}
-		else
-		{
+				//Debug.Log ("MOVING");
+			}
+			else
+			{
+			}
 		}
 	}
 
@@ -224,4 +229,7 @@ public class MovingByUser : MonoBehaviour {
 		}
 	}
 
+	public void CharacterStepedOn(){
+		characterInteraction = true;
+	}
 }

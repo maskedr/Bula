@@ -16,13 +16,16 @@ public class DirectionRaycasting2DBrick : DirectionRaycasting2DCollider {
 
 	// Update is called once per frame
 	public override void Update () {
-	
-		// Calling parent Update function
-		base.Update ();
 
-		movingByUserScript.rayCastCollisionDown = collisionDown;
-		movingByUserScript.rayCastCollisionLeft = collisionLeft;
-		movingByUserScript.rayCastCollisionUp = collisionUp;
-		movingByUserScript.rayCastCollisionRight = collisionRight;
+		if(this.gameObject != null)
+		{
+			// Calling parent Update function
+			base.Update ();
+			
+			movingByUserScript.rayCastCollisionDown = collisionDown;
+			movingByUserScript.rayCastCollisionLeft = collisionLeft;
+			movingByUserScript.rayCastCollisionUp = collisionUp;
+			movingByUserScript.rayCastCollisionRight = collisionRight;
+		}
 	}
 }

@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21200000}
   - 60: {fileID: 6000000}
   - 50: {fileID: 5000000}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: lvl1_scene1_left_pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
